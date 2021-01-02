@@ -69,7 +69,8 @@ const list = new ListWidget()
 
 	var impfGes=datacsv[datacsv.length-2].total_vaccinations;
   
-	var impfGes_dsp=impfGes.toLocaleString()
+	var impfGes_dsp=parseInt(impfGes)
+	impfGes_dsp=impfGes_dsp.toLocaleString()
 	
   
 var impfGes_pro = impfGes/55980000*100;

@@ -67,13 +67,15 @@ const list = new ListWidget()
 
   list.addSpacer();
 
-  var impfGes=datacsv[datacsv.length-2].total_vaccinations;
+	var impfGes=datacsv[datacsv.length-2].total_vaccinations;
   
+	var impfGes_dsp=impfGes.toLocaleString()
+	
   
 var impfGes_pro = impfGes/60360000*100;
   impfGes_pro=impfGes_pro.toFixed(2);
   
-  label = list.addText("" + impfGes);
+  label = list.addText("" + impfGes_dsp);
   label.font = Font.boldSystemFont(15.8);
 
   label.textColor = Color.green();

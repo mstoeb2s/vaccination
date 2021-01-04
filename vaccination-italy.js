@@ -89,8 +89,11 @@ label = list.addText("" + impfGes_pro + "%");
   label.textColor = Color.green(); 
 
 list.addSpacer();
+  var str = datacsv[datacsv.length-2].date
   
-  label = list.addText("Date: " + datacsv[datacsv.length-2].date);
+  var array = str.split("-");
+  
+  label = list.addText("Date: " + array[2] + "." + array[1] + "." + array[0]);
   label.font = Font.boldSystemFont(11);
   label.textColor = Device.isUsingDarkAppearance() ? Color.white() : Color.black();  
   

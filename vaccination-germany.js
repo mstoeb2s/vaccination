@@ -25,6 +25,7 @@
 //Bundesland
 const BL = 9
 
+//Quelle: ZEIT ONLINE
 const apiUrl = "https://interactive.zeit.de/cronjobs/2020/corona/impfzahlen.json"
 
 

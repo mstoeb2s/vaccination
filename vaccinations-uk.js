@@ -70,7 +70,7 @@ const list = new ListWidget()
 	impfGes_dsp=impfGes_dsp.toLocaleString()
 	
   
-var impfGes_pro = impfGes/66650000*100;
+var impfGes_pro = impfGes/67260000*100;
   impfGes_pro=impfGes_pro.toFixed(2);
   
   label = list.addText("" + impfGes_dsp);

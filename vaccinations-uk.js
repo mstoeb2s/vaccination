@@ -4,8 +4,6 @@
 
 const apiUrl = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/country_data/United%20Kingdom.csv"
 
-api="%20"
-
 const widget = await createWidget();
 
 if (!config.runsInWidget) {

@@ -1,7 +1,7 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: teal; icon-glyph: magic;
-const apiUrl = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/country_data/United Kingdom.csv"
+const apiUrl = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/country_data/United%20Kingdom.csv"
 
 
 
@@ -62,7 +62,7 @@ const list = new ListWidget()
   header.textColor = Device.isUsingDarkAppearance() ? Color.white() : Color.black();
   
   const header2 = list.addText("United Kingdom".toUpperCase())
-  header2.font = Font.mediumSystemFont(15)
+  header2.font = Font.mediumSystemFont(13)
   header2.textColor = Device.isUsingDarkAppearance() ? Color.white() : Color.black();
 
   list.addSpacer();

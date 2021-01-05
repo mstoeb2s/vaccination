@@ -124,7 +124,7 @@ var impfGes_pro = impfGes/83020000*100;
   label.font = Font.boldSystemFont(10);
   label.textColor = Device.isUsingDarkAppearance() ? Color.white() : Color.black();  
   
-  label = list.addText("" + data.timestamp[0].id);
+  label = list.addText("" + data.timestamp);
   label.font = Font.boldSystemFont(10);
   label.textColor = Device.isUsingDarkAppearance() ? Color.white() : Color.black();
   
